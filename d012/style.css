@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d3d3d3;
+    /* min-height:100vh; */
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.301);
+}
+
+header > h1{
+    margin: 40px 0px 5px 0px;
+    font-family: 'Passion One', cursive;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header p{
+    font-size: 0.9em;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 16px 0px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.356);
+}
+
+main p{
+    padding: 16px 0px 16px 10px;
+    font-family: 'Sriracha', cursive;
+    width: 220px;
+    margin: 16px 0px 16px 10px;
+    /*
+    padding-top: 10vh; Maneira que o Guanabara fez
+    padding-bottom: 10vh;
+    */
+}
+
+div{
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px 0px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.37);
+}
+
+div > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 10px;
+}
+
+.joaninha{
+    background-image: url('imagens/background001.jpg');
+}
+
+.cartas{
+    background-image: url('imagens/background002.jpg');
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 0.9em;
+}
